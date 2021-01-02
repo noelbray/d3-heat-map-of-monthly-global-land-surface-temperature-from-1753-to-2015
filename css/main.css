@@ -1,0 +1,80 @@
+* {
+  font-family: Arial
+}
+
+body {
+  position: relative;
+  text-align: center;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-left: 80px; /*accounts for chart margin.left in JS*/
+}
+
+#description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 5px;
+  maring-left: 80px; /*accounts for chart margin.left in JS*/
+}
+
+#heatmap {
+  border: 1px solid red;
+}
+
+/* #x-axis {
+  fill: red;
+} */
+
+/* #x-axis text {
+  font-size: 14px;
+} */
+
+.x-text,
+.x-axis-text,
+.legend-text {
+  font-size: 14px;
+}
+
+/* .x-line {
+  stroke: red;
+} */
+
+/* #x-axis {
+  stroke: red;
+} */
+
+/* #x-axis path {
+  stroke: purple; 
+} */
+
+.y-text {
+  font-size: 14px;
+}
+
+#tooltip {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid black;
+  border-radius: 25%;
+  color: rgba(250, 250, 250, 0.8);
+  min-height: 50px;
+  min-width: 50px;
+  opacity: 0;
+  padding: 15px;
+  position: absolute;
+/*   z-index: 1; */
+}
+
+/* #tip {
+  background-color: purple;
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  position: absolute;
+  top: 37px;
+  z-index: 0;
+} */
+
